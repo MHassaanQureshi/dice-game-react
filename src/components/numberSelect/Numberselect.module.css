@@ -9,3 +9,16 @@
 
 
 
+@media screen and (width<= 500px) {
+    .body{
+       
+        width: 100%;
+    }
+    .container{
+        padding: 0%;
+        margin-left: -7rem;
+    }
+    
+   
+    
+}

@@ -1,19 +1,22 @@
 import style from "./Numberselect.module.css";
 
 import styled from "styled-components"
-export default function Numberselect({selectedNumber,setSelectedNumber}) {
+export default function Numberselect({selectedNumber,setSelectedNumber,error}) {
     const arrNumber = [1, 2, 3, 4, 5, 6];
     
     console.log(selectedNumber)
     return (
-        
-        <div className={style.container} >
+        <>
+        <p>{error}</p>
+         <div className={style.container} >
+            
             {arrNumber.map((value, i) => (
                 <Box  key={i} className={style.numberbox} onClick={() => setSelectedNumber(value)} isSelected={value === selectedNumber}>
                     {value}
                 </Box>
             ))}
-        </div>
+        </div></>
+       
     );
 }
 const Box = styled.div`
@@ -30,4 +33,13 @@ const Box = styled.div`
     background-color: ${(props) => props.isSelected ? "black" : "white"};
     color: ${(props) => props.isSelected ? "white" : "black"};
     cursor: pointer;
+    @media screen and (width<= 500px){
+        width: 10%;
+        height: 10%;
+    }
+  
+    
+   
+    
+
 `
