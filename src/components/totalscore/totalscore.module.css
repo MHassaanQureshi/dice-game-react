@@ -1,0 +1,18 @@
+
+.count{
+    
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    align-items: center;
+}
+.numsel{
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+.userNumber{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}

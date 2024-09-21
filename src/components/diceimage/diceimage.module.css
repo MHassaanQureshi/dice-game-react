@@ -1,0 +1,12 @@
+.diceimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    cursor: pointer;
+    flex-direction: column;
+}
+.diceimg p{
+    font-size: 2rem;
+    padding-top: 1rem;
+}

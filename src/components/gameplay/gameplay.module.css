@@ -1,0 +1,16 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.head{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.secondbutton{
+    background: #000;
+    color:white;
+}

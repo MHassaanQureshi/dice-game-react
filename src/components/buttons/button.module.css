@@ -1,0 +1,15 @@
+button{
+    width: 10rem;
+    height: 2rem;
+    border: 1px solid black;
+    background-color: transparent;
+   
+    
+}
+.buttondiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+}
